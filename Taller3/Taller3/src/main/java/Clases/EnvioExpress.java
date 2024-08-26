@@ -8,13 +8,12 @@ package Clases;
  *
  * @author juanc
  */
-public class Factura {
+public class EnvioExpress extends Envio {
+
+    @Override
+    public double calcularCosto(double peso, double distancia) {
+        return peso * 1 + distancia * 0.2;
+    }
     
     
-    public void guardarFactura(){
-        
-    }
-    public void generarReporteFacturas(){
-        
-    }
 }

@@ -10,4 +10,8 @@ package Clases;
  */
 public class Cliente {
     
+    
+    public void guardarCliente(){
+        
+    }
 }

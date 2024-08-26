@@ -9,5 +9,20 @@ package Clases;
  * @author juanc
  */
 public class Correo {
+    Factura miFactura;
+    Cliente miCliente;
+
+    public Correo(Factura miFactura, Cliente miCliente) {
+        this.miFactura = miFactura;
+        this.miCliente = miCliente;
+    }
     
+    
+    public void enviarEmailFactura(){
+        
+    }
+    
+    public void enviarFacturaDian(){
+        
+    }
 }

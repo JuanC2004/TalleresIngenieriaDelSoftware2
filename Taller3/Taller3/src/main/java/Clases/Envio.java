@@ -8,13 +8,8 @@ package Clases;
  *
  * @author juanc
  */
-public class Factura {
+public abstract class Envio {
     
     
-    public void guardarFactura(){
-        
-    }
-    public void generarReporteFacturas(){
-        
-    }
+    public abstract double calcularCosto(double peso, double distancia);
 }
