@@ -1,0 +1,3 @@
+- En este caso si se desea agregar un nuevo tipo de envió, debemos modificar directamente el código original, teniendo en cuenta que se tendrá que agregar una nueva condición else if para envió internacional, cosa que se viole el principio OCP.
+
+- Para poder implementar de manera correcta el OCP, se requiere modificar todo el código, haciendo de Envío una clase padre, la cual nos permita mediante herencia, crear clases independientes para cada tipo de envío, pudiendo así cumplir el principio OCP
