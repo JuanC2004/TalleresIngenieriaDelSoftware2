@@ -1,0 +1,3 @@
+- En este caso se esta haciendo una violación al SRP en la clase factura y cliente ya que esta clase esta haciendo la labor de 3 clases diferentes, para poder que se cumpla el SRP, vamos a dividir las clases en 3, una de cliente, otra de facturas y la ultima para correo, así cada clase podrá tener sus responsabilidades bien definidas
+
+-Para el segundo punto, se anexan dos archivos .mdj, donde se ven las diferentes clases usadas, en el primer archivo llamado "oiginal", se muestra la clase original como se tenia planteada, mientras que en el segundo archivo llamado "Refactorizado", se encuentra el diagrama de clases ya organizado y corregido, también está el código implementado en Java
