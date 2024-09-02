@@ -8,7 +8,7 @@ package com.mycompany.tallerisp;
  *
  * @author juanc
  */
-public class Cartilla {
+public class Cartilla implements LibreriaCartilla{
     private int numeroHojas;
 
     public Cartilla(int numeroHojas) {
@@ -27,6 +27,21 @@ public class Cartilla {
      */
     public void setNumeroHojas(int numeroHojas) {
         this.numeroHojas = numeroHojas;
+    }
+
+    @Override
+    public void prestar() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void devolver() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void mantenimientoHojas() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
     

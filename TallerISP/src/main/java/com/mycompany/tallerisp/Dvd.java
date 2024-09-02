@@ -8,7 +8,7 @@ package com.mycompany.tallerisp;
  *
  * @author juanc
  */
-public class Dvd {
+public class Dvd implements Digital{
     private String nombre;
     private String archivo;
     private int stock;
@@ -59,6 +59,16 @@ public class Dvd {
      */
     public void setStock(int stock) {
         this.stock = stock;
+    }
+
+    @Override
+    public void prestar() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void devolver() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
