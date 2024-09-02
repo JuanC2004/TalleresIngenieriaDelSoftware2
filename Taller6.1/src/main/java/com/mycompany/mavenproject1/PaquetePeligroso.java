@@ -8,7 +8,7 @@ package com.mycompany.mavenproject1;
  *
  * @author juanc
  */
-public class PaquetePeligroso extends Paquete {
+public class PaquetePeligroso extends Paquete implements IPaquetePeligroso {
     private String etiquetasPeligro;
     private boolean embalajeEspecial;
 
@@ -44,6 +44,16 @@ public class PaquetePeligroso extends Paquete {
      */
     public void setEmbalajeEspecial(boolean embalajeEspecial) {
         this.embalajeEspecial = embalajeEspecial;
+    }
+
+    @Override
+    public void verificarContenidoPeligroso() {
+        System.out.println("Se verifica el contenido del paquete peligroso");
+    }
+
+    @Override
+    public void asegurarPaquetePeligroso() {
+        System.out.println("Se asegura el paquete peligroso");
     }
     
     

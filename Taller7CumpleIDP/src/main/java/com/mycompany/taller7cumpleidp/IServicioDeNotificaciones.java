@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package com.mycompany.mavenproject1;
+package com.mycompany.taller7cumpleidp;
 
 /**
  *
  * @author juanc
  */
-public interface IPaquetePequeño {
-    void calcularCostoEnvioPequeño();
+public interface IServicioDeNotificaciones {
+    void enviarNotificacion(String mensaje);
 }

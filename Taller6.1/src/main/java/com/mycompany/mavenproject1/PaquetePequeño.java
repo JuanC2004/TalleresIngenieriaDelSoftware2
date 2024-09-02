@@ -8,7 +8,7 @@ package com.mycompany.mavenproject1;
  *
  * @author juanc
  */
-public class PaquetePequeño extends Paquete {
+public class PaquetePequeño extends Paquete implements IPaquetePequeño {
     private double valorDeclarado;
 
     public PaquetePequeño(double valorDeclarado, double peso, double dimensiones) {
@@ -28,6 +28,11 @@ public class PaquetePequeño extends Paquete {
      */
     public void setValorDeclarado(double valorDeclarado) {
         this.valorDeclarado = valorDeclarado;
+    }
+
+    @Override
+    public void calcularCostoEnvioPequeño() {
+        System.out.println("Se calcula el costo del envio de un paquete pequeño");
     }
     
     

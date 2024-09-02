@@ -9,5 +9,5 @@ package com.mycompany.mavenproject1;
  * @author juanc
  */
 public interface IPaqueteGrande {
-    
+    void calcularCostoEnvioGrande();
 }

@@ -9,5 +9,6 @@ package com.mycompany.mavenproject1;
  * @author juanc
  */
 public interface IPaquetePeligroso {
-    
+    void verificarContenidoPeligroso();
+    void asegurarPaquetePeligroso();
 }
