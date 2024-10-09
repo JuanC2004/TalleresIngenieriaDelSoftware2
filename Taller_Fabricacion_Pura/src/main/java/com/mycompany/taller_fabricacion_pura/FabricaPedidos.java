@@ -14,7 +14,7 @@ public class FabricaPedidos {
     
     void crearPedido(Cliente cliente, List<Producto> productos){
         System.out.println("Creando pedido para el cliente: "+cliente.getNombre());
-        System.out.println("Con los siguientes productos");
+        System.out.println("Con los siguientes productos:");
         for (Producto producto : productos) {
             System.out.println(producto.getNombre());
         }
