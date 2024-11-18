@@ -13,8 +13,9 @@ public class Cliente {
     Impresora impresoraTinta = new ImpresoraTinta();
     
     
-    Impresora impresoraLaserAdapt = new AdapterImpresora(impresoraLaser);
-    Impresora impresoraTintaAdapt = new AdapterImpresora(impresoraTinta);
+    IImpresora impresoraLaserAdapt = new AdapterImpresora(impresoraLaser);
+    IImpresora impresoraTintaAdapt = new AdapterImpresora(impresoraTinta);
     
-    impresoraLaserAdapt.
+    impresoraLaserAdapt.imprimir();
+    impresoraTintaAdapt.imprimir();
 }
