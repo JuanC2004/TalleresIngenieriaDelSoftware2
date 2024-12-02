@@ -19,7 +19,7 @@ public class Taller17_Singleton {
         settings.setConfiguracion("theme", "dark");
         settings.setConfiguracion("language", "es");
         
-        System.out.println("theme actualizado: " + settings.getConfiguracion("theme"));
+        System.out.println("Theme actualizado: " + settings.getConfiguracion("theme"));
         System.out.println("Language actualizado: " + settings.getConfiguracion("language"));
     }
 }
